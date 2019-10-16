@@ -1,0 +1,58 @@
+/* for PC's small and Big */
+@media only screen (max-width:1200px){
+
+    .super-text-box{
+        
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+
+}
+
+/* Devices with Portraid Mode*/
+@media only screen (max-width:1023px){
+
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0;
+    }
+    .long-copy{
+        
+        width: 80%;
+        margin-left: 10%;
+    }
+    .p-fsec{
+        font-size:90%;
+
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+
+}
+
+/* For  Screens Like Tablets Ipad or Onebook etc*/
+@media only screen (max-width:767px){
+    body{font-size:16px}
+    section{padding: 30px 0}
+    .row,super-text-box{ padding: 0 4%; }
+    .col { width: 100%}
+    .main-nav { display: none;}
+
+    /* Mobile navigation */
+    .mobile-nav-ico{display: inline-block;}
+}
+
+/* Small Screen Like Qmobile Noir i6 or Iphone 4 etc */
+@media only screen (max-width:480px){
+
+}
